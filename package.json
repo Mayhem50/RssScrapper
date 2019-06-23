@@ -1,0 +1,19 @@
+{
+  "name": "rss-feed",
+  "version": "1.0.0",
+  "description": "Jin's Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "rss-worker": "node ./RssWorker/RssWorker.js"
+  },
+  "author": "BRR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "feedparser": "^2.2.9",
+    "mongoose": "^5.6.0",
+    "request": "^2.88.0"
+  }
+}
